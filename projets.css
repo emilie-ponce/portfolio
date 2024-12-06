@@ -169,8 +169,7 @@ h5{
     border: solid 2px black;
     border-radius: 30px;
     background-color: #79a9d3;;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
