@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: fit-content;
+    background-color: #79a9d3;
+}
+.link{
+    color: #000000;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    text-decoration: none;
+    height: 100%s;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    list-style: none;  
+    height: 50px;
+}
+main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-size: 62px;  
+    color: #000000;
+}
+.subtitle{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-size: 25px;  
+    color: #000000;
+}
+
+/*media querie*/
+@media only screen and (min-width: 860px){
+    .link{
+        font-size: 18px;
+    }
+    ul{
+        gap:200px;
+        height: 70px;
+    } 
+    .title{
+        font-size: 70px;  
+    }
+    .subtitle{
+        font-size: 20px;  
+    }
+}
+@media only screen and (max-width: 430px){
+    .title{
+        font-size: 45px
+    }
+    .subtitle{
+        font-size: 22px;
+    }
+}

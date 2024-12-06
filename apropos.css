@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: fit-content;
+    background-color: #79a9d3;
+}
+.link{
+    color: #000000;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    text-decoration: none;
+    height: 100%s;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    list-style: none;  
+    height: 50px;
+}
+/*biographie*/
+main{
+    width: 100%;
+    margin-top: 50px;
+}
+.name{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.center{
+    background-color: #79a9d3;
+    border: solid 2px black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+}
+.center1{
+    border-radius: 30px;
+    border: solid 2px black;
+    margin: 25px 25px 25px 25px;
+    background-color: #ffffff;
+}
+.bio{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.partie1{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*parcours*/
+.career{
+    border: solid 2px black;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 25px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.career1{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.partie2{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.devweb{
+    width: 360px;
+    height: 230px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.partie3{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+/*passions*/
+.passion0{
+    background-color: #79a9d3;
+    border: solid 2px black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+}
+.passion{
+    border: solid 2px black;
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin: 25px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.passion1{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.passion2{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sky{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.sky1{
+    width: 290px;
+}
+.sky2{
+    width: 290px;
+}
+.sky3{
+    width: 290px;
+    margin-bottom: 25px;
+}
+@media only screen and (min-width: 860px){
+    ul{
+        gap:200px;
+        height: 70px;
+    }
+    .name{
+        font-size: 30px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    .center{
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
+        grid-gap: 20px;
+    }
+    .bio{
+        font-size: 20px;
+    }
+    .partie1{
+        font-size: 12px;
+    }
+    .career1{
+        font-size: 20px;
+    }
+    .partie2{
+        font-size: 12px;
+    }
+    .passion1{
+        font-size: 20px;
+    }
+    .passion2{
+        font-size: 12px;
+    }
+    .sky1{
+        width: 300px;
+    }
+    .sky2{
+        width: 300px;
+    }
+    .sky3{
+        width: 300px;
+    }
+}

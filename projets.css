@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: fit-content;
+    background-color: #79a9d3;
+}
+.link{
+    color: #000000;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    text-decoration: none;
+    height: 100%s;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    list-style: none;  
+    height: 50px;
+}
+main{
+    width: 100%;
+    margin-top: 50px;
+}
+.title{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-size: 60px;  
+    color: #000000;
+    text-align: center;
+    margin-top: 100px;
+}
+.subtitle{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-size: 35px;  
+    color: #000000;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.intro{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px; 
+    margin-left: 10px;
+}
+.center{
+    display: flex;
+    align-items: end;
+    gap: 25px;
+    margin-bottom: 50px;
+    }
+/*figma*/
+.figma{
+    background-color: #79a9d3;
+    border-radius: 30px;
+    border: solid 2px black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h5{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.readmore{
+    font-family: "New Rocker", system-ui;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.intro1{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 25px; 
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.figma1{
+    width: 390px;
+    height: 700px;
+}
+.intro2{
+    font-family: "Noto Sans Georgian", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.figma2{
+    width: 390px;
+    height: 300px;
+    margin-top: 15px;
+}
+.intro3{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.figma3{
+    width: 390px;
+    height: 700px;
+    margin-top: 15px;
+}
+.intro4{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.figma4{
+    width: 390px;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+/*trello*/
+.trello{
+    border: solid 2px black;
+    border-radius: 30px;
+    background-color: #79a9d3;;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.trello1{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.trello2{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 25px; 
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+.readmore1{
+    font-family: "New Rocker", system-ui;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.tr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trello3{
+    width: 390px;
+    height: 280px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+/*fansite*/
+.fansite{
+    border: solid 2px black;
+    border-radius: 30px;
+    background-color: #79a9d3;;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fansite1{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px; 
+}
+.fansite2{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 8px; 
+}
+.fansite3{
+    width: 390px;
+    height: 700px;
+}
+.fansite4{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.fansite5{
+    width: 390px;
+    height: 300px;
+    margin-top: 15px;
+}
+.fansite6{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px; 
+    margin-left: 8px;
+}
+.fs7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fansite7{
+    width: 390px;
+    height: 700px;
+}
+.fansite8{
+    width: 390px;
+    height: 580px;
+}
+.fansite9{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.fs10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fansite10{
+    width: 390px;
+    height: 240px;
+    margin-top: 15px;
+}
+.fansite11{
+    width: 390px;
+    height: 260px;
+}
+.fansite12{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+.fansite13{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 15px; 
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+.fansite14{
+    width: 370px;
+    height: 700px;
+    margin-top: 15px;
+}
+.fansite15{
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 18px; 
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.fansite16{
+    width: 390px;
+    height: 260px;
+    margin-bottom: 20px;
+}
+/*media querie*/
+@media only screen and (min-width: 860px){
+    .link{
+        font-size: 18px;
+    }
+    ul{
+        gap:200px;
+        height: 70px;
+    } 
+    .title{
+        font-size: 60px;
+        margin-top: 130px; 
+        margin-bottom: 100px;
+    }
+    .subtitle{
+        font-size: 30px;
+    }
+    .intro{
+        font-size: 12px;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        gap: 25px;
+    }
+    .figma{
+        margin: 35px 15px 0 15px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    .intro1{
+        font-size: 12px;
+    }
+    .readmore{
+        margin-bottom: 10px;
+    }
+    .intro2{
+        font-size: 12px;
+    }
+    .figma1{
+        width: 230px;
+        height: 370px;
+    }
+    .figma2{
+        width: 360px;
+        height: 310px;
+    }
+    .intro3{
+        font-size: 12px;
+    }
+    .figma3{
+        width: 230px;
+        height: 370px;
+    }
+    .intro4{
+        font-size: 12px;
+    }
+    .trello1{
+        font-size: 20px;
+    }
+    .readmore1{
+        margin-bottom: 10px;
+    }
+    .trello2{
+        font-size: 12px;
+    }
+    .trello3{
+        width: 310px;
+        height: 190px;
+    }
+    .fansite1{
+        font-size: 20px;
+    }
+    .fansite2{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .fansite3{
+        width: 330px;
+    }
+    .fansite4{
+        font-size: 12px
+    }
+    .fansite5{
+        width: 580px;
+        height: 400px;
+    }
+    .fansite6{
+        font-size: 12px;
+    }
+    .fansite7{
+        width: 340px;
+        height: 600px;
+    }
+    .fansite8{
+        width: 340px;
+        height: 480px;
+    }
+    .fansite9{
+        font-size: 12px;
+    }
+    .fansite10{
+        width: 580px;
+        height: 290px;
+    }
+    .fansite11{
+        width: 580px;
+        height: 330px;
+    }
+    .fansite12{
+        font-size: 12px;
+    }
+    .fansite13{
+        font-size: 12px;
+    }
+    .fansite14{
+        width: 280px;
+        height: 480px;
+    }
+    .fansite15{
+        font-size: 12px;
+    }
+    .fansite16{
+        width: 600px;
+        height: 340px;
+    }
+}
+@media only screen and (min-width: 430px){
+    .title{
+        font-size: 45px;
+    }
+    .subtitle{
+        font-size: 25px;
+    }
+    .intro{
+        font-size: 15px;
+    }
+    .figma{
+        margin-top: 15px;
+    }
+    h5{
+        font-size: 25px;
+    }
+    .intro1{
+        font-size: 15px;
+    }
+    .readmore{
+        margin-bottom: 15px;
+    }
+    .intro2{
+        font-size: 15px;
+    }
+    .figma1{
+        width: 300px;
+        height: 620px;
+    }
+    .figma2{
+        width: 315px;
+        height: 215px;
+    }
+    .intro3{
+        font-size: 15px;
+    }
+    .figma3{
+        width: 300px;
+        height: 620px;
+    }
+    .figma4{
+        width: 300px;
+        height: 230px;
+    }
+    .intro4{
+        font-size: 15px;
+    }
+    .trello1{
+        font-size: 25px;
+    }
+    .readmore1{
+        margin-bottom: 10px;
+    }
+    .trello2{
+        font-size: 15px;
+    }
+    .trello3{
+        width: 300px;
+        height: 200px;
+    }
+    .fansite1{
+        font-size: 25px;
+    }
+    .fansite2{
+        font-size: 15px;
+        margin-top: 8px;
+    }
+    .fansite3{
+        width: 300px;
+        height: 620px;
+    }
+    .fansite4{
+        font-size: 15px
+    }
+    .fansite5{
+        width: 300px;
+        height: 230px;
+    }
+    .fansite6{
+        font-size: 15px;
+    }
+    .fansite7{
+        width: 300px;
+        height: 620px;
+    }
+    .fansite8{
+        width: 300px;
+        height: 500px;
+    }
+    .fansite9{
+        font-size: 15px;
+    }
+    .fansite10{
+        width: 300px;
+        height: 180px;
+    }
+    .fansite11{
+        width: 300px;
+        height: 190px;
+    }
+    .fansite12{
+        font-size: 15px;
+    }
+    .fansite13{
+        font-size: 15px;
+    }
+    .fansite14{
+        width: 300px;
+        height: 620px;
+    }
+    .fansite15{
+        font-size: 15px;
+    }
+    .fansite16{
+        width: 300px;
+        height: 180px;
+    }
+}
