@@ -183,13 +183,17 @@ main{
     .passion2{
         font-size: 12px;
     }
+    .sky{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
     .sky1{
-        width: 300px;
+        width: 260px;
+        height: 300px;
     }
     .sky2{
-        width: 300px;
-    }
-    .sky3{
-        width: 300px;
+        width: 260px;
+        height: 300px;
     }
 }
