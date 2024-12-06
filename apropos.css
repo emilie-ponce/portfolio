@@ -22,7 +22,7 @@ ul{
     list-style: none;  
     height: 50px;
 }
-/*biographie*/
+/*titre*/
 main{
     width: 100%;
     margin-top: 50px;
@@ -34,13 +34,53 @@ main{
     margin-top: 100px;
     margin-left: 10px;
 }
+/*lien réseaux*/
+.link0{
+    background-color: #79a9d3;
+    border: solid 2px black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 20px 20px 20px;
+}
+.link1{
+    border-radius: 30px;
+    border: solid 2px black;
+    margin: 25px 25px 25px 25px;
+    background-color: #ffffff;
+    display: block;
+    width: 85%;
+}
+.link2{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.link3{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px 20px 15px;
+}
+.github{
+    width: 85px;
+}
+.gmail{
+    width: 85px;
+}
+.linkedin{
+    width: 85px;
+}
+/*biographie*/
 .center{
     background-color: #79a9d3;
     border: solid 2px black;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
-    margin: 20px 20px 20px 20px;
+    margin: 50px 20px 50px 20px;
 }
 .center1{
     border-radius: 30px;
@@ -108,7 +148,7 @@ main{
     border-radius: 50px;
     display: flex;
     flex-direction: column;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 30px 20px;
 }
 .passion{
     border: solid 2px black;
@@ -155,6 +195,12 @@ main{
     ul{
         gap:200px;
         height: 70px;
+    }
+    .link1{
+        width: 95%;
+    }
+    .link3{
+        justify-content: space-evenly;
     }
     .name{
         font-size: 30px;
