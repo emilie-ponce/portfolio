@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d7dff1;
+    width: 99%;
+}
+/*haut de page*/
+.nomprenom0{
+   padding-right: 64%;
+   font-family: "Gowun Dodum", serif;
+   font-size: 18px;
+   color: black;
+}
+header{
+    height: fit-content;
+    background-color: #6285d7;
+    width: 101%;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    list-style: none;  
+    height: 55px;
+    padding-right: 3%;
+}
+.lien{
+    font-family: "Gowun Dodum", serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+/*PAGE PROFIL*/
+.profil{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 15px 100px 15px;
+    margin: 5%;
+    margin-top: 7%;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.nomprénom{
+    font-family: "Hurricane", serif;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0%;
+    color: #0d3ba8;
+}
+.sous-titre{
+    font-family: "Gowun Dodum", serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*réseaux-sociaux*/
+.reseaux{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.reseaux2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.reseaux3{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+}
+.github{
+    width: 20%;
+}
+.gmail{
+    width: 20%;
+}
+
+/*biographie*/
+.bio{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px 50px 30px 50px;
+    margin: 170px 200px 80px 200px;
+    text-align: center;
+}
+.bio2{
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.bio3{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+}
+
+/*parcours*/
+.parcours{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px 50px 30px 50px;
+    text-align: center;
+    margin: 25px 200px 80px 200px;
+}
+.parcours2{
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.parcours3{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+}
+
+/*passions*/
+.passion{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px 50px 30px 50px;
+    text-align: center;
+    margin: 24px 200px 50px 200px;
+}
+.passion2{
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.passion3{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+/*images*/
+.images{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+.image1{
+    width: 33%;
+    height: 40vh;
+}
+.image2{
+    width: 33%;
+    height: 40vh;
+}
+.image3{
+    width: 33%;
+    height: 40vh;
+}
+
+/*PAGE PROJETS*/
+/*FANSITE*/
+.projets{
+    font-family: "Hurricane", serif;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-size: 50px;
+}
+.projets2{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 50px 15px 50px;
+    margin: 7%;
+    align-items: center;
+}
+.fansite{
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.fansite2{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+}
+.fifi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    padding-top: 3%;
+}
+.figma{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+.figmabureau{
+    width: 110%;
+    height: 60vh;
+}
+.figmatelephone{
+    width: 100%;
+    height: 60vh;
+}
+.fifi2{
+    display: flex;
+    gap: 15%;
+}
+.figma2{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.figmasite2{
+    width: 110%;
+    height: 60vh;
+}
+.figmasite3{
+    width: 110%;
+    height: 60vh;
+}
+.figma3{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.figmasite4{
+    width: 110%;
+    height: 60vh;
+}
+.figmasite5{
+    width: 110%;
+    height: 60vh;
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+.résultat{
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.iconefansite{
+    width: 95%;
+    height: 15vh;
+}
+.lienfansite{
+    font-family: "Gowun Dodum", serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+/*MATCHA TEA*/
+.projets3{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 50px 15px 50px;
+    margin: 7%;
+    align-items: center;
+}
+.matchatea{
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.matchatea2{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+}
+.figmamatchatea{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 3%;
+}
+.figmahistoire{
+    width: 50%;
+    height: 50vh;
+}
+.figmacontact{
+    width: 50%;
+    height: 50vh;
+}
+.icone2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+.résultat2{
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.iconematchatea2{
+    width: 95%;
+    height: 15vh;
+}
+
+/*PAGE CONTACT*/
+.formulaire{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px 50px 30px 50px;
+    margin: 40px 200px 30px 200px;
+    text-align: center;
+}
+.formulaire2{
+    font-family: "Hurricane", serif;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 5%;
+    color: #0d3ba8;
+}
+.mail{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.input{
+    width: 28%;
+    height: 5vh;
+    border-radius: 25px;
+    border: solid #6285d7
+}
+textarea{
+    border-radius: 25px;
+    border: solid #6285d7;
+    width: 40%;
+}
+.send{
+    width: 10%;
+    height: 5vh;
+    border-radius: 25px;
+    border: solid #6285d7;
+    font-family: "Gowun Dodum", serif;
+    color: #0d3ba8;
+}
+
+@media only screen and (max-width: 600px) {
+    .nomprenom0{
+        padding-right: 0% !important;
+        font-weight: bold !important; 
+    }
+    .profil {
+        flex-direction: column !important;
+        padding: 10% !important;
+    }
+    .sous-titre{
+        font-size: 25px !important;
+    }
+    .lien{
+        font-weight: bold !important; 
+    }
+    .reseaux3 {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        width: 100% !important;
+    }
+    .github{
+        width: 50% !important;
+    }
+    .gmail{
+        width: 50% !important;
+    }
+    .bio {
+        padding: 20px 30px 20px 30px !important;
+        margin: 50px 20px 50px 20px !important;
+    }
+    .bio2{
+        font-size: 25px !important;
+        padding-bottom: 3% !important;
+    }
+    .bio3{
+        font-size: 22px !important;
+    }
+    .parcours {
+        padding: 20px 30px 20px 30px !important;
+        margin: 20px 20px 50px 20px !important;
+    }
+    .parcours2{
+        font-size: 28px !important;
+        padding-bottom: 3% !important;
+    }
+    .parcours3{
+        font-size: 22px !important;
+    }
+    .passion{
+        padding: 20px 30px 20px 30px !important;
+        margin: 20px 20px 20px 20px !important;
+    }
+    .passion2{
+        font-size: 28px !important;
+        padding-bottom: 3% !important;
+    }
+    .passion3{
+        font-size: 22px !important;
+    }
+    .images{
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .image1{
+        width: 80% !important;
+        height: 35vh !important;
+    }
+    .image2{
+        width: 80% !important;
+        height: 35vh !important;
+    }
+    .image3{
+        width: 80% !important;
+        height: 35vh !important;
+    }
+}
+
