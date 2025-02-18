@@ -274,7 +274,7 @@ ul{
     align-items: center;
 }
 
-/*MATCHA TEA*/
+/*QUIZNIGHT*/
 .projets3{
     border: solid 5px #6285d7;
     background-color: white;
@@ -282,33 +282,45 @@ ul{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 30px 50px 15px 50px;
+    padding: 30px 50px 50px 50px;
     margin: 7%;
     align-items: center;
 }
-.matchatea{
+.quiznight{
     font-family: "Gowun Dodum", serif;
     font-size: 20px;
     padding-bottom: 1%;
     color: #0d3ba8;
 }
-.matchatea2{
+.quiznight2{
     font-family: "Gowun Dodum", serif;
     font-size: 15px;
 }
-.figmamatchatea{
+.figmamatquiznight{
     display: flex;
-    justify-content: center;
-    gap: 10%;
+    gap: 5%;
     padding-top: 3%;
+    align-items: center;
+    justify-content: center;
 }
-.figmahistoire{
+.figmamatquiznight2{
+    display: flex;
+    padding-top: 3%;
+    flex-direction: column;
+    align-items: center;
+}
+.figmaquizaccueil{
     width: 50%;
     height: 50vh;
 }
-.figmacontact{
+.figmaquizconnexion{
     width: 50%;
     height: 50vh;
+}
+.figmaquizadmin{
+    width: 100%;
+    height: 100vh;
+    padding-top: 3%;
 }
 .icone2{
     display: flex;
@@ -323,7 +335,7 @@ ul{
     padding-bottom: 1%;
     color: #0d3ba8;
 }
-.iconematchatea2{
+.iconequiznight2{
     width: 95%;
     height: 15vh;
 }
