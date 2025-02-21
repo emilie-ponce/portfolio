@@ -340,6 +340,64 @@ ul{
     height: 15vh;
 }
 
+/*LIVRE D'OR*/
+.projets4{
+    border: solid 5px #6285d7;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 50px 50px 50px;
+    margin: 7%;
+    align-items: center;
+}
+.livredor{
+    font-family: "Gowun Dodum", serif;
+    font-size: 20px;
+    padding-bottom: 1%;
+    color: #0d3ba8;
+}
+.livredor2{
+    font-family: "Gowun Dodum", serif;
+    font-size: 15px;
+}
+.figmalivredor{
+    display: flex;
+    gap: 5%;
+    padding-top: 3%;
+    align-items: center;
+    justify-content: center;
+}
+.figmalivredoraccueil{
+    width: 50%;
+    height: 50vh;
+}
+.figmalivredorconnexion{
+    width: 50%;
+    height: 50vh;
+}
+.figmalivredorinscription{
+    width: 50%;
+    height: 50vh;
+}
+.figmalivredorcommentaire{
+    width: 50%;
+    height: 50vh;
+}
+.figmalivredormodif{
+    width: 50%;
+    height: 50vh;
+}
+.figmalivredoradmin{
+    width: 50%;
+    height: 50vh;
+}
+.iconelivredor{
+    width: 55%;
+    height: 15vh;
+}
+
 /*PAGE CONTACT*/
 .formulaire{
     border: solid 5px #6285d7;
