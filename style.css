@@ -6,13 +6,13 @@ body{
     width: 99%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-family: "Anta";
+
 }
 
 /*haut de page*/
 .nomprenom0{
    padding-right: 64%;
-   font-family: "Gowun Dodum", serif;
    font-size: 18px;
    color: black;
 }
@@ -31,7 +31,7 @@ ul{
     padding-left: 3%;
 }
 .lien{
-    font-family: "Anta";
+  
     font-size: 25px;
     color: #ffffff;
     text-decoration: none;
@@ -40,7 +40,7 @@ ul{
     color: #9f9ea0;
 }
 .lien2{
-    font-family: "Anta";
+    
     font-size: 18px;
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +49,7 @@ ul{
     color: #9f9ea0;
 }
 
-/*PAGE PROFIL*/
+/*PAGE ACCUEIL*/
 .photoaccueil{
     width: 100%;
     height: 100vh;
@@ -61,20 +61,20 @@ ul{
     border-radius: 40px;
     display: flex;
     padding: 8%;
-    margin-top: 8%;
+    margin-top: 6%;
     width: 60%;
 }
 .pro{
     width: 100%;
 }
 .nomprénom{
-    font-family: "Anta";
+    
     font-size: 55px;
     text-align: center;
     color: #ffffff;
 }
 .sous-titre{
-    font-family: "Anta";
+
     font-weight: 400;
     font-size: 18px;
     color: #ffffff;
@@ -105,6 +105,44 @@ ul{
     width: 20%;
     padding-top: 5%;
 }
+
+/*PROJETS*/
+.mesprojets{
+    text-align: center;
+    
+    font-size: 50px;
+    color: #656668;
+    margin-top: 10%
+}
+.projets{
+    padding: 8%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.projets2{
+    border-radius: 30px;
+    background-color:#656668;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+}
+.iconeprojet{
+    width: 75%;
+    height: 18vh;
+}
+.titreprojet{
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 5%;
+}
+
+
+
+
 
 /*biographie*/
 .bio{
@@ -186,233 +224,6 @@ ul{
     height: 40vh;
 }
 
-/*PAGE PROJETS*/
-/*FANSITE*/
-.projets{
-    font-family: "Hurricane", serif;
-    text-align: center;
-    margin-top: 7%;
-    margin-bottom: 7%;
-    font-size: 50px;
-}
-.projets2{
-    border: solid 5px #6285d7;
-    background-color: white;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 30px 50px 15px 50px;
-    margin: 7%;
-    align-items: center;
-}
-.fansite{
-    font-family: "Gowun Dodum", serif;
-    font-size: 20px;
-    padding-bottom: 1%;
-    color: #0d3ba8;
-}
-.fansite2{
-    font-family: "Gowun Dodum", serif;
-    font-size: 15px;
-}
-.fifi{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5%;
-    padding-top: 3%;
-}
-.figma{
-    display: flex;
-    justify-content: center;
-    gap: 8%;
-}
-.figmabureau{
-    width: 110%;
-    height: 60vh;
-}
-.figmatelephone{
-    width: 100%;
-    height: 60vh;
-}
-.fifi2{
-    display: flex;
-    gap: 15%;
-}
-.figma2{
-    padding-top: 5%;
-    display: flex;
-    flex-direction: column;
-}
-.figmasite2{
-    width: 110%;
-    height: 60vh;
-}
-.figmasite3{
-    width: 110%;
-    height: 60vh;
-}
-.figma3{
-    padding-top: 5%;
-    display: flex;
-    flex-direction: column;
-}
-.figmasite4{
-    width: 110%;
-    height: 60vh;
-}
-.figmasite5{
-    width: 110%;
-    height: 60vh;
-}
-.icone{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 4%;
-}
-.résultat{
-    font-family: "Gowun Dodum", serif;
-    font-size: 20px;
-    padding-bottom: 1%;
-    color: #0d3ba8;
-}
-.iconefansite{
-    width: 95%;
-    height: 15vh;
-}
-.lienfansite{
-    font-family: "Gowun Dodum", serif;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-}
-
-/*QUIZNIGHT*/
-.projets3{
-    border: solid 5px #6285d7;
-    background-color: white;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 30px 50px 50px 50px;
-    margin: 7%;
-    align-items: center;
-}
-.quiznight{
-    font-family: "Gowun Dodum", serif;
-    font-size: 20px;
-    padding-bottom: 1%;
-    color: #0d3ba8;
-}
-.quiznight2{
-    font-family: "Gowun Dodum", serif;
-    font-size: 15px;
-}
-.figmamatquiznight{
-    display: flex;
-    gap: 5%;
-    padding-top: 3%;
-    align-items: center;
-    justify-content: center;
-}
-.figmamatquiznight2{
-    display: flex;
-    padding-top: 3%;
-    flex-direction: column;
-    align-items: center;
-}
-.figmaquizaccueil{
-    width: 50%;
-    height: 50vh;
-}
-.figmaquizconnexion{
-    width: 50%;
-    height: 50vh;
-}
-.figmaquizadmin{
-    width: 100%;
-    height: 100vh;
-    padding-top: 3%;
-}
-.icone2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 4%;
-}
-.résultat2{
-    font-family: "Gowun Dodum", serif;
-    font-size: 20px;
-    padding-bottom: 1%;
-    color: #0d3ba8;
-}
-.iconequiznight2{
-    width: 95%;
-    height: 15vh;
-}
-
-/*LIVRE D'OR*/
-.projets4{
-    border: solid 5px #6285d7;
-    background-color: white;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 30px 50px 50px 50px;
-    margin: 7%;
-    align-items: center;
-}
-.livredor{
-    font-family: "Gowun Dodum", serif;
-    font-size: 20px;
-    padding-bottom: 1%;
-    color: #0d3ba8;
-}
-.livredor2{
-    font-family: "Gowun Dodum", serif;
-    font-size: 15px;
-}
-.figmalivredor{
-    display: flex;
-    gap: 5%;
-    padding-top: 3%;
-    align-items: center;
-    justify-content: center;
-}
-.figmalivredoraccueil{
-    width: 50%;
-    height: 50vh;
-}
-.figmalivredorconnexion{
-    width: 50%;
-    height: 50vh;
-}
-.figmalivredorinscription{
-    width: 50%;
-    height: 50vh;
-}
-.figmalivredorcommentaire{
-    width: 50%;
-    height: 50vh;
-}
-.figmalivredormodif{
-    width: 50%;
-    height: 50vh;
-}
-.figmalivredoradmin{
-    width: 50%;
-    height: 50vh;
-}
-.iconelivredor{
-    width: 55%;
-    height: 15vh;
-}
 
 /*PAGE CONTACT*/
 .formulaire{
