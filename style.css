@@ -3,9 +3,12 @@
     padding: 0;
 }
 body{
-    background-color: #d7dff1;
     width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 /*haut de page*/
 .nomprenom0{
    padding-right: 64%;
@@ -15,57 +18,69 @@ body{
 }
 header{
     height: fit-content;
-    background-color: #6285d7;
-    width: 101%;
+    background-color: #656668;
+    width: 102%;
 }
 ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    list-style: none;  
-    height: 55px;
+    list-style: none;
+    height: 12vh;
     padding-right: 3%;
+    padding-left: 3%;
 }
 .lien{
-    font-family: "Gowun Dodum", serif;
-    font-size: 18px;
-    color: black;
+    font-family: "Anta";
+    font-size: 25px;
+    color: #ffffff;
     text-decoration: none;
+}
+.lien:hover{
+    color: #9f9ea0;
+}
+.lien2{
+    font-family: "Anta";
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.lien2:hover{
+    color: #9f9ea0;
 }
 
 /*PAGE PROFIL*/
+.photoaccueil{
+    width: 100%;
+    height: 100vh;
+}
 .profil{
-    border: solid 5px #6285d7;
-    background-color: white;
-    border-radius: 25px;
+    background-image: url("images/photoaccueil.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
     display: flex;
-    justify-content: center;
-    padding: 100px 15px 100px 15px;
-    margin: 5%;
-    margin-top: 7%;
+    padding: 8%;
+    margin-top: 8%;
+    width: 60%;
 }
 .pro{
-    display: flex;
-    flex-direction: column;
     width: 100%;
 }
 .nomprénom{
-    font-family: "Hurricane", serif;
-    font-size: 60px;
+    font-family: "Anta";
+    font-size: 55px;
     text-align: center;
-    margin-bottom: 0%;
-    color: #0d3ba8;
+    color: #ffffff;
 }
 .sous-titre{
-    font-family: "Gowun Dodum", serif;
+    font-family: "Anta";
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
+    color: #ffffff;
     text-align: center;
-    margin-bottom: 40px;
+    padding-top: 3%;
 }
-
-/*réseaux-sociaux*/
 .reseaux{
     display: flex;
     flex-direction: column;
@@ -88,6 +103,7 @@ ul{
 }
 .gmail{
     width: 20%;
+    padding-top: 5%;
 }
 
 /*biographie*/
