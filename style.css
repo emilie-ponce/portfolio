@@ -7,46 +7,37 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "Anta";
-
 }
 
-/*haut de page*/
-.nomprenom0{
-   padding-right: 64%;
-   font-size: 18px;
-   color: black;
-}
-header{
-    height: fit-content;
+/*HAUT DE PAGE*/
+/* Header */
+header {
     background-color: #656668;
-    width: 102%;
-}
-ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+    width: 101%;
     height: 12vh;
-    padding-right: 3%;
-    padding-left: 3%;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 1%;
+    gap: 65%;
+    align-items: center;
 }
 .lien{
-  
     font-size: 25px;
-    color: #ffffff;
     text-decoration: none;
+    color: #ffffff;
 }
 .lien:hover{
-    color: #9f9ea0;
+    color: #000000;
 }
-.lien2{
-    
-    font-size: 18px;
-    color: #ffffff;
-    text-decoration: none;
+.github{
+    width: 40px;
+    transition: transform 0.2s ease-in-out;
 }
-.lien2:hover{
-    color: #9f9ea0;
+.github:hover{
+    transform: scale(1.2);
 }
 
 /*PAGE ACCUEIL*/
@@ -58,154 +49,105 @@ ul{
     background-image: url("images/photoaccueil.png");
     background-size: cover;
     background-position: center;
-    border-radius: 40px;
+    border-radius: 25px;
     display: flex;
     padding: 8%;
-    margin-top: 6%;
+    margin-top: 7%;
     width: 60%;
+    margin-left: 12%;
 }
 .pro{
     width: 100%;
 }
 .nomprénom{
-    
     font-size: 55px;
     text-align: center;
     color: #ffffff;
 }
 .sous-titre{
-
     font-weight: 400;
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding-top: 3%;
 }
-.reseaux{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-}
-.reseaux2{
-    text-align: center;
-    margin-bottom: 25px;
-}
-.reseaux3{
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 50%;
-}
-.github{
-    width: 20%;
-}
-.gmail{
-    width: 20%;
-    padding-top: 5%;
-}
 
-/*PROJETS*/
-.mesprojets{
-    text-align: center;
-    
-    font-size: 50px;
-    color: #656668;
-    margin-top: 10%
-}
-.projets{
-    padding: 8%;
-    display: flex;
-    justify-content: space-around;
-
-}
-.projets2{
-    border-radius: 30px;
-    background-color:#656668;
-    width: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2%;
-}
-.iconeprojet{
-    width: 75%;
-    height: 18vh;
-}
-.titreprojet{
-    font-size: 20px;
-    color: #ffffff;
-    padding-top: 5%;
-}
-
-
-
-
-
-/*biographie*/
-.bio{
-    border: solid 5px #6285d7;
-    background-color: white;
+/*BIOGRAPHIE*/
+.biographie{
     border-radius: 25px;
-    padding: 30px 50px 30px 50px;
-    margin: 170px 200px 80px 200px;
+    padding: 40px 50px 40px 50px;
+    margin: 15% 0% 15% 16.5%;
+    width: 60%;
+    margin-left: 16.5%;
     text-align: center;
+    background-image: url("images/photobiographie.png");
+    background-size: cover;
+    background-position: center;
+}
+.biographie2{
+    border-radius: 25px;
+    padding: 40px 50px 40px 50px;
+    margin: 8% 0% 8% 16.5%;
+    width: 60%;
+    margin-left: 16.5%;
+    text-align: center;
+    background-image: url("images/photobiographie.png");
+    background-size: cover;
+    background-position: center;
+}
+.bio{
+    color: #000000;
+    padding-bottom: 3%;
+    font-size: 25px;
 }
 .bio2{
-    font-family: "Gowun Dodum", serif;
-    font-size: 20px;
-    padding-bottom: 1%;
-    color: #0d3ba8;
+    color: #ffffff;
 }
-.bio3{
-    font-family: "Gowun Dodum", serif;
+.savoirplus{
+    padding-top: 3%;
+}
+.savoirplus2{
+    text-decoration: none;
+    color: #000000;
     font-size: 15px;
 }
-
-/*parcours*/
 .parcours{
-    border: solid 5px #6285d7;
-    background-color: white;
     border-radius: 25px;
-    padding: 30px 50px 30px 50px;
+    padding: 40px 50px 40px 50px;
+    margin-bottom: 8%;
+    width: 60%;
+    margin-left: 16.5%;
     text-align: center;
-    margin: 25px 200px 80px 200px;
+    background-image: url("images/photobiographie.png");
+    background-size: cover;
+    background-position: center;
 }
 .parcours2{
-    font-family: "Gowun Dodum", serif;
-    font-size: 20px;
-    padding-bottom: 1%;
-    color: #0d3ba8;
+    color: #000000;
+    padding-bottom: 3%;
+    font-size: 25px;
 }
 .parcours3{
-    font-family: "Gowun Dodum", serif;
-    font-size: 15px;
+    color: #ffffff;
 }
-
-/*passions*/
 .passion{
-    border: solid 5px #6285d7;
-    background-color: white;
     border-radius: 25px;
-    padding: 30px 50px 30px 50px;
+    padding: 40px 50px 40px 50px;
+    margin-bottom: 8%;
+    width: 60%;
+    margin-left: 16.5%;
     text-align: center;
-    margin: 24px 200px 50px 200px;
+    background-color: #656668;
 }
 .passion2{
-    font-family: "Gowun Dodum", serif;
-    font-size: 20px;
-    padding-bottom: 1%;
-    color: #0d3ba8;
+    color: #000000;
+    padding-bottom: 3%;
+    font-size: 25px;
 }
 .passion3{
-    font-family: "Gowun Dodum", serif;
-    font-size: 15px;
-    padding-bottom: 20px;
+    color: #ffffff;
+    padding-bottom: 3%;
 }
-
-/*images*/
 .images{
     display: flex;
     gap: 35px;
@@ -215,56 +157,119 @@ ul{
     width: 33%;
     height: 40vh;
 }
+.image1:hover{
+    box-shadow: 0px 0px 20px 5px #ffffff;
+}
 .image2{
     width: 33%;
     height: 40vh;
+}
+.image2:hover{
+    box-shadow: 0px 0px 20px 5px #ffffff;
 }
 .image3{
     width: 33%;
     height: 40vh;
 }
+.image3:hover{
+    box-shadow: 0px 0px 20px 5px #ffffff;
+}
 
+/*PROJETS*/
+.mesprojets{
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+}
+.projets{
+    padding: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+.projets2{
+    border-radius: 30px;
+    background-color: #656668;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+}
+.projetshtml{
+    text-align: center;
+}
+.iconeprojet{
+    width: 90%;
+    height: 25vh;
+    transition: box-shadow 0.3s ease;
+}
+.iconeprojet:hover{
+    box-shadow: 0px 0px 20px 5px #ffffff;
+}
+.titreprojet{
+    font-size: 20px;
+    color: #000000;
+    padding-top: 8%;
+}
 
 /*PAGE CONTACT*/
 .formulaire{
-    border: solid 5px #6285d7;
-    background-color: white;
+    background-image: url(images/photocontact.png);
+    background-size: cover;
+    background-position: center;
     border-radius: 25px;
-    padding: 30px 50px 30px 50px;
-    margin: 40px 200px 30px 200px;
     text-align: center;
+    width: 55%;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding: 2%;
 }
 .formulaire2{
-    font-family: "Hurricane", serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     padding-bottom: 5%;
-    color: #0d3ba8;
+    color: #000000;
 }
 .mail{
-    font-family: "Gowun Dodum", serif;
     font-size: 15px;
     padding-bottom: 1%;
-    color: #0d3ba8;
+    color: #ffffff;
 }
 .input{
     width: 28%;
     height: 5vh;
     border-radius: 25px;
-    border: solid #6285d7
+    border: solid #000000
 }
 textarea{
     border-radius: 25px;
-    border: solid #6285d7;
+    border: solid #000000;
     width: 40%;
 }
 .send{
     width: 10%;
     height: 5vh;
     border-radius: 25px;
-    border: solid #6285d7;
-    font-family: "Gowun Dodum", serif;
-    color: #0d3ba8;
+    border: solid #000000;
+    color: #000000;
+    font-family: 'Anta';
+}
+
+/*BAS DE PAGE*/
+footer{
+    background-color: #656668;
+    width: 101%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    text-decoration: none;
+    color: white;
+}
+.contact:hover{
+    color: #000000;
 }
 
 @media only screen and (max-width: 600px) {
