@@ -178,22 +178,8 @@ ul {
 /*PROJETS*/
 .mesprojets{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     color: #000000;
-}
-.projets{
-    padding: 8%;
-    display: flex;
-    justify-content: space-around;
-}
-.projets2{
-    border-radius: 30px;
-    background-color: #656668;
-    width: 20%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 3%;
 }
 .projetshtml{
     text-align: center;
@@ -210,6 +196,122 @@ ul {
     font-size: 20px;
     color: #000000;
     padding-top: 8%;
+}
+.projets{
+    padding: 6%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 45px;
+}
+.projets2{
+    border-radius: 30px;
+    background-color: #656668;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+.fansite{
+    color: #000000;
+    padding-bottom: 3%;
+    font-size: 25px;
+}
+.fansite2{
+    color: #ffffff;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.figma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+.figmabureau{
+    width: 60%;
+    height: 70vh;
+}
+.figmatelephone{
+    width: 30%;
+    height: 90vh;
+}
+.figmasite{
+    width: 50%;
+    height: 60vh;
+}
+.figmasite2{
+    width: 50%;
+    height: 90vh;
+}
+.résultat{
+    color: #000000;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.icone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icône{
+    width: 100%;
+    height: 22vh;
+}
+.quiznight{
+    color: #000000;
+    padding-bottom: 3%;
+    font-size: 25px;
+}
+.quiznight2{
+    color: #ffffff;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.figmamatquiznight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+.figmaquiz{
+    width: 50%;
+    height: 55vh;
+}
+.figmaquiz2{
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 5%;
+}
+.résultat2{
+    color: #000000;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.livredor{
+    color: #000000;
+    padding-bottom: 3%;
+    font-size: 25px;
+}
+.livredor2{
+    color: #ffffff;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.figmalivredor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+.figmalivredorrr{
+    width: 80%;
+    height: 70vh;
 }
 
 /*PAGE CONTACT*/
