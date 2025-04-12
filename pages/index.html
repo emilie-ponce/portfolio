@@ -3,113 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-100 font-sans">
 
 <!--HAUT DE PAGE-->
-    <header class="bg-teal-800 text-white px-6 py-4">
-        <div class="max-w-7xl mx-auto flex justify-between items-center flex-wrap">
-            <h4 class="text-xl">EMILIE PONCE</h4>
-            <button id="menu-btn" class="custom:hidden text-2xl focus:outline-none">
-                ☰
-            </button>
-            <nav id="menu" class="w-full custom:w-auto custom:flex custom:items-center hidden custom:gap-6 mt-4 custom:mt-0">
-                <a href="#" class="block custom:inline-block py-2 custom:py-0 px-2 hover:text-teal-500">A propos</a>
-                <a href="#" class="block custom:inline-block py-2 custom:py-0 px-2 hover:text-teal-500">Projets</a>
-                <a href="#" class="block custom:inline-block py-2 custom:py-0 px-2 hover:text-teal-500">Contact</a>
-            </nav>
+    <nav class="bg-white shadow-lg">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="text-xl font-semibold text-gray-800"><a href="#accueil" class="px-3 py-2 text-gray-600 hover:text-gray-900">Emilie Ponce</a></div>
+            <div class="flex space-x-4">
+                <a href="#apropos" class="px-3 py-2 text-gray-600 hover:text-gray-900">À propos</a>
+                <a href="#projets" class="px-3 py-2 text-gray-600 hover:text-gray-900">Projets</a>
+                <a href="#contact" class="px-3 py-2 text-gray-600 hover:text-gray-900">Contact</a>
+            </div>
         </div>
-    </header>
-
-    <!-- <header>
-        <nav>
-            <ul>
-                <li><a class="lien" href="index.html">EMILIE PONCE</a></li>
-                <li><a href="https://github.com/emilie-ponce" target="_blank" title="Voir mon GitHub"><img class="github" src="images/github.png" alt="Logo GitHub"></a></li>
-            </ul>
-        </nav>
-    </header> -->
-
+    </nav>
 
 <!--PRESENTATION-->
-    <div class="profil">
-        <div class="pro">
-            <h1 class="nomprénom">
-                EMILIE PONCE
-            </h1>
-            <h3 class="sous-titre">
-                Aspirante en développement web
-            </h3>
+    <section id="accueil" class="py-20 bg-gradient-to-r from-[#2994d8] to-[#153b62] text-white">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 flex flex-col justify-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Bonjour, je suis <span class="text-green-400">Emilie Ponce</span></h1>
+                <h2 class="text-2xl md:text-3xl mb-6">Développeuse Web en devenir</h2>
+                <p class="text-base mb-8">Pour moi, créer un site ou développer une application, c’est un peu comme raconter une histoire : il faut structurer les idées, leur donner du sens et guider l’utilisateur à chaque étape de son expérience afin qu’il se sente immergé dans une interface intuitive et agréable.</p>
+            </div>
+            <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+                <div class="bg-white rounded-full p-2 shadow-xl">
+                    <img src="/images/profil.png" alt="Photo de profil" class="rounded-full w-64 h-64 object-cover">
+                </div>
+            </div>
         </div>
-    </div>
-
-<!--A PROPOS-->
-    <div class="biographie">
-        <h3 class="bio">
-            -Biographie-         
-        </h3>
-        <p class="bio2">
-            Passionnée d'écriture, de musique et de photographie, j'ai souhaité m'intéresser à une autre de mes passions qui est l'informatique en intégrant l'école LaPlateforme. Choisir une spécialité n'a pas été très difficile étant donné que j'ai toujours été une personne créative. J'ai alors découvert le monde du développement web et j'ai hâte d'en faire mon métier et découvrir ainsi qu'apprendre encore plus de choses ! 
-        </p>
-        <p class="savoirplus">
-            <a class="savoirplus2" href="apropos.html" target="_blank">
-                Cliquez pour en savoir plus !
-            </a>
-        </p>
-    </div>
+    </section>
 
 <!--PROJETS-->
-    <h4 class="mesprojets">
-        -MES PROJETS-
-    </h4>
-
-    <div class="projets">
-        <!--FANSITE-->
-        <div class="projets2">
-            <a class="projetshtml" href="projets.html#projet1" target="_blank">
-                <img class="iconeprojet" src="images/fansite.png" alt="photo fansite">
-            </a>
-            <p class="titreprojet">
-                Fansite
-            </p>
+    <section id="projets" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Mes Projets</h2>
+            <div class="flex flex-wrap -mx-4">
+                <!-- Projet 1 -->
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                        <img src="/images/quiznight.png" alt="Projet 1" class="w-full h-48">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Quiznight</h3>
+                            <p class="text-gray-600 mb-4">La plateforme sur mesure qui révolutionne vos soirées entre collègues !</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">HTML</span>
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">CSS</span>
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">PHP</span>
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 2 -->
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                        <img src="/images/livre-dor.png" alt="Projet 2" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Livre d'or</h3>
+                            <p class="text-gray-600 mb-4">Amis proche de Bernadette ? Venez lui laisser un petit message pour anniversaire !</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">HTML</span>
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">CSS</span>
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">PHP</span>
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 3 -->
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                        <img src="/images/happymeal.png" alt="Projet 3" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">HappyMeal</h3>
+                            <p class="text-gray-600 mb-4">Découvrez nos savoureuses recettes sur notre site HappyMeal !</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">HTML</span>
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">CSS</span>
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">JavaScript</span>
+                                <span class="bg-green-400 text-white px-3 py-1 rounded-full text-sm">JSON</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <!--QUIZNIGHT-->
-        <div class="projets2">
-            <a class="projetshtml" href="projets.html#projet2" target="_blank">
-                <img class="iconeprojet" src="images/quiz.png" alt="photo quiznight">
-            </a>
-            <p class="titreprojet">
-                Quiznight
-            </p>
+<!--COMPETENCES-->
+    <section id="competences" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Mes Compétences</h2>
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md h-full flex flex-col items-center text-center">
+                        <div class="text-4xl mb-4 text-blue-500">💻</div>
+                        <h3 class="text-xl font-semibold mb-2 text-green-400">Front-end</h3>
+                        <ul class="text-gray-600">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Tailwind CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md h-full flex flex-col items-center text-center">
+                        <div class="text-4xl mb-4 text-green-500">🔧</div>
+                        <h3 class="text-xl font-semibold mb-2 text-green-400">Back-end</h3>
+                        <ul class="text-gray-600">
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md h-full flex flex-col items-center text-center">
+                        <div class="text-4xl mb-4 text-yellow-500">🛠️</div>
+                        <h3 class="text-xl font-semibold mb-2 text-green-400">Outils</h3>
+                        <ul class="text-gray-600">
+                            <li>GitHub</li>
+                            <li>Figma</li>
+                            <li>VSCode</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md h-full flex flex-col items-center text-center">
+                        <div class="text-4xl mb-4 text-yellow-500">📝</div>
+                        <h3 class="text-xl font-semibold mb-2 text-green-400">Bureautique</h3>
+                        <ul class="text-gray-600">
+                            <li>Word</li>
+                            <li>PowerPoint</li>
+                            <li>Excel</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <!--LIVRE D'OR-->
-        <div class="projets2">
-            <a class="projetshtml" href="projets.html#projet3" target="_blank">
-                <img class="iconeprojet" src="images/livred'or.png" alt="photo livredor">
-            </a>
-            <p class="titreprojet">
-                Livre d'or
-            </p>
+<!--À  PROPOS DE MOI-->
+    <section id="apropos" class="py-16 bg-[#f8fafc]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-[#153b62] mb-12">À  propos de moi</h2>
+        
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2 bg-white p-8 rounded-xl shadow-md">
+                    <h3 class="text-2xl font-semibold text-[#2994d8] mb-6 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        Mon Parcours
+                    </h3>
+                
+                    <div class="space-y-6 border-l-2 border-[#2994d8] pl-6">
+                        <div class="relative pl-6">
+                            <div class="absolute w-4 h-4 bg-[#153b62] rounded-full -left-2 top-1"></div>
+                            <p class="text-gray-600"><span class="font-bold text-[#153b62]">Septembre - Décembre 2023 :</span> Licence de psychologie à Aix-en-Provence</p>
+                        </div>
+                    
+                        <div class="relative pl-6">
+                            <div class="absolute w-4 h-4 bg-[#153b62] rounded-full -left-2 top-1"></div>
+                            <p class="text-gray-600"><span class="font-bold text-[#153b62]">Été 2024 :</span> Agent sanitaire et consigne sur la plage des Catalans à Marseille</p>
+                        </div>
+                    
+                        <div class="relative pl-6">
+                            <div class="absolute w-4 h-4 bg-[#153b62] rounded-full -left-2 top-1"></div>
+                            <p class="text-gray-600"><span class="font-bold text-[#153b62]">Octobre 2024 - Aujourd'hui :</span> Formation en développement web @LaPlateforme_ à Marseille</p>
+                        </div>
+                    </div>
+                
+                    <p class="mt-8 text-gray-700 italic">
+                        "Choisir une spécialité n'a pas été difficile étant donné que j'ai toujours été une personne créative. Le développement web m'a révélé une passion insoupçonnée pour allier logique et création - un équilibre parfait !"
+                    </p>
+                </div>
+            
+                <div class="lg:w-1/2 bg-white p-8 rounded-xl shadow-md">
+                    <h3 class="text-2xl font-semibold text-[#2994d8] mb-6 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                        Mes Passions
+                    </h3>
+                
+                <div class="grid gap-4">
+                    <div class="flex items-start">
+                        <div class="bg-[#153b62]/10 p-2 rounded-lg mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#153b62]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-[#153b62]">Écriture & Musique</h4>
+                            <p class="text-gray-600">J'écris des histoires et compose de la musique depuis 2020 que je ne publie pas pour l'instant.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-[#153b62]/10 p-2 rounded-lg mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#153b62]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-[#153b62]">Jeux Vidéo</h4>
+                            <p class="text-gray-600">Passionnée par les jeux d'infiltration et monde ouvert, j'y puise de l'inspiration pour mes créations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-[#153b62]/10 p-2 rounded-lg mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#153b62]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-[#153b62]">Photographie</h4>
+                            <p class="text-gray-600">Depuis l'été 2024, je me suis découvert une passion pour la photographie et partage ça sur mon compte Instagram privé.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
-<!--BAS DE PAGE-->
-    <footer>
-        <p>
-            <a class="contact" href="contact.html" target="_blank">
-                CONTACTEZ MOI !
-            </a>
-        </p>
-    </footer>
-
-    <script src="../js/script.js"></script>
+<!-- CONTACT -->
+    <section id="contact" class="min-h-screen flex items-center justify-center bg-white py-16">
+        <div class="bg-gray-100 p-10 rounded-lg shadow-lg max-w-2xl w-full">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Contactez-moi</h2>
+  
+      
+        <div class="space-y-6 text-center">
+            <div class="flex items-center justify-center space-x-3">
+                <span class="text-blue-500 text-xl">📧</span>
+                <span class="text-lg">ponceemilie844@gmail.com</span>
+            </div>
+            <div class="flex items-center justify-center space-x-3">
+                <span class="text-blue-500 text-xl">📱</span>
+                <span class="text-lg">06 19 66 20 67</span>
+            </div>
+            <div class="flex items-center justify-center space-x-3">
+                <span class="text-blue-500 text-xl">🏠</span>
+                <span class="text-lg">Marseille, France</span>
+            </div>
+        </div>
+  
+        <div class="mt-10 text-center">
+            <h3 class="text-xl font-semibold mb-4">Réseaux sociaux</h3>
+            <div class="flex justify-center space-x-4">
+                <a href="https://www.linkedin.com/in/emilie-ponce-671790340" target="_blank" class="bg-green-400 text-white px-5 py-3 rounded-full hover:bg-[#17436d] transition duration-300">LinkedIn</a>
+                <a href="https://github.com/emilie-ponce" target="_blank" class="bg-green-400 text-white px-5 py-3 rounded-full hover:bg-[#17436d] transition duration-300">GitHub</a>
+            </div>
+        </div>
+  </section>
 </body>
 </html>
